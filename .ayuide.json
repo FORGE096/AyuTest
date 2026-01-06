@@ -65,6 +65,36 @@
           ],
           "parentBlockId": "1767347186901",
           "childBlocks": []
+        },
+        {
+          "id": "1767717570955",
+          "type": "onDisable",
+          "position": {
+            "dx": 588.0038842375092,
+            "dy": 310.00597672498975
+          },
+          "properties": {},
+          "inputSockets": [],
+          "outputSockets": [
+            "next"
+          ],
+          "parentBlockId": null,
+          "childBlocks": []
+        },
+        {
+          "id": "1767717573396",
+          "type": "onEnable",
+          "position": {
+            "dx": 996.003884237509,
+            "dy": 310.00597672498975
+          },
+          "properties": {},
+          "inputSockets": [],
+          "outputSockets": [
+            "next"
+          ],
+          "parentBlockId": null,
+          "childBlocks": []
         }
       ],
       "connections": []
