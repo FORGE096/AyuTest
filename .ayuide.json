@@ -1,0 +1,91 @@
+{
+  "tabs": [
+    {
+      "id": "1767347180576",
+      "name": "Main",
+      "blocks": [
+        {
+          "id": "1767347182138",
+          "type": "playerJoin",
+          "position": {
+            "dx": 172.00000000000006,
+            "dy": 303.00000000000006
+          },
+          "properties": {},
+          "inputSockets": [],
+          "outputSockets": [
+            "next",
+            "player"
+          ],
+          "parentBlockId": null,
+          "childBlocks": [
+            "1767347186901"
+          ]
+        },
+        {
+          "id": "1767347186901",
+          "type": "ifCondition",
+          "position": {
+            "dx": 192.00000000000006,
+            "dy": 383.00000000000006
+          },
+          "properties": {
+            "condition": "{player} == \"FORGE096\"",
+            "elseIfConditions": [],
+            "hasElse": false,
+            "negate": false
+          },
+          "inputSockets": [
+            "condition"
+          ],
+          "outputSockets": [
+            "true",
+            "false"
+          ],
+          "parentBlockId": "1767347182138",
+          "childBlocks": [
+            "1767434794320"
+          ]
+        },
+        {
+          "id": "1767434794320",
+          "type": "cancelEvent",
+          "position": {
+            "dx": 212.00000000000006,
+            "dy": 483.00000000000006
+          },
+          "properties": {
+            "ifSocket": "true"
+          },
+          "inputSockets": [
+            "next"
+          ],
+          "outputSockets": [
+            "next"
+          ],
+          "parentBlockId": "1767347186901",
+          "childBlocks": []
+        }
+      ],
+      "connections": []
+    }
+  ],
+  "activeTabId": "1767347180576",
+  "pluginSettings": {
+    "name": "AyuTest",
+    "version": "1.0.0",
+    "description": "",
+    "authors": [],
+    "prefix": "",
+    "website": "",
+    "dependencies": [],
+    "softDepend": [],
+    "loadBefore": [],
+    "permissions": {},
+    "apiVersion": "1.13"
+  },
+  "autoSaveInterval": {
+    "index": 1,
+    "label": "After Each Change"
+  }
+}

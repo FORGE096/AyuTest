@@ -1,0 +1,5 @@
+name: AyuTest
+main: dev.yourteam.plugins.ayutest.Ayutest
+version: 1.0.0
+api-version: 1.13
+prefix: AyuTest
