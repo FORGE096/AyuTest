@@ -65,21 +65,6 @@
           ],
           "parentBlockId": "1767347186901",
           "childBlocks": []
-        },
-        {
-          "id": "1767716611663",
-          "type": "onEnable",
-          "position": {
-            "dx": 647.0,
-            "dy": 395.00000000000006
-          },
-          "properties": {},
-          "inputSockets": [],
-          "outputSockets": [
-            "next"
-          ],
-          "parentBlockId": null,
-          "childBlocks": []
         }
       ],
       "connections": []
