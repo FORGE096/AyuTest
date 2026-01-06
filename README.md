@@ -21,5 +21,5 @@ A Minecraft plugin built with [AyuIDE](https://github.com/FORGE096/ayu).
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the AYU License.
 
